@@ -28,7 +28,7 @@ namespace BandsMvc.Models
                     "Hordes of Chaos (2009)",
                     "Phantom Antichrist (2012)",
                     "Gods of Violence (2017)",
-                    "Hate Über Alles (2022)}"}  },
+                    "Hate Über Alles (2022)}"}, YouTube="https://www.youtube.com/embed/mUv8GxrqXPk"  },
             new Band {Name = "Metallica", Id=23, Description="Metalbandet", ImagePath="/Assets/metallica.jpg",
                 Albums=new List<string>{
                 "Kill 'Em All (1983)",
@@ -42,7 +42,7 @@ namespace BandsMvc.Models
                 "Death Magnetic (2008)",
                 "Hardwired... to Self-Destruct (2016)",
                 "72 Seasons (2023)"
-                } },
+                }, YouTube="https://www.youtube.com/embed/CD-E-LDc384" },
             new Band {Name = "The Offspring", Id=34, Description="Punk", ImagePath = "/Assets/offspring.jpg",
                 Albums=new List<string>{
                 "1989 – The Offspring",
@@ -55,7 +55,8 @@ namespace BandsMvc.Models
                 "2008 – Rise and Fall, Rage and Grace",
                 "2012 – Days Go By",
                 "2021 – Let the Bad Times Roll"
-                } }
+                
+                }, YouTube="https://www.youtube.com/embed/7iNbnineUCI" }
         };
 
 

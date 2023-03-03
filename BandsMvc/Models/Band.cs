@@ -9,5 +9,7 @@
         public string ImagePath { get; set; }
 
         public List<string> Albums { get; set; } = new List<string>();
+
+        public string YouTube { get; set; }
     }
 }
