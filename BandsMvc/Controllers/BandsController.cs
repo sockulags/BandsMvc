@@ -16,7 +16,7 @@ namespace acme.Controllers
         [HttpGet("details/{id}")]
         public IActionResult Details(int id)
         {
-            return View();
+            return View(dataService.GetBandById(id));
         }
     }
 }
