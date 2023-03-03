@@ -9,9 +9,16 @@
     <link rel="stylesheet" href="/css/MyCSS.css" />
 </head>
 <body>
-    <h3>@Model.Name </h3>
+    <h1>@Model.Name </h1>
     <h4>@Model.Description</h4>
     <img src="@Model.ImagePath" />
+    <h4>Albums</h4>
+    <ul>
+    @foreach (var item in Model.Albums)
+    {
+        <li>@item</li>
+    }
+    </ul>
 
   
 
