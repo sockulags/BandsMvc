@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwRoot\Assets\kreator-2022.jpg" />
+    <None Include="wwwRoot\Assets\metallica.jpg" />
+    <None Include="wwwRoot\Assets\offspring.jpg" />
+  </ItemGroup>
+
 </Project>
